@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.header {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.sidebar {
+	float: left;
+	width: 30%;
+}
+
+.content {
+	float: right;
+	width: 50%;
+	padding-right: 50px;
+    margin-right: 10%;
+
+}
+
+.footer {
+	clear: both;
+	padding-top: 30px;
+} 
+.footer li{
+	float: left;
+	list-style: none;
+	padding: 5px;
+	margin: 5px;
+	color: grey;
+	margin-right: 80px;
+}
+
+
+.sidebar li{
+	list-style: none;
+	padding: 5px;
+	margin: 5px;
+	color: grey;
+}
+
+.menu{
+	position: relative;
+	overflow: hidden;
+	background: green;
+	
+}

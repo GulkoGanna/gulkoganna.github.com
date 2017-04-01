@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  background: url(../img/bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.headerBox {
+    text-align: center;
+    font-family: 'Helvetica Neue Regular';
+	font-size: 20px;
+	font-weight: bold;
+    color: #fff;
+    margin: 40px auto;
+    margin-top: 150px;
+	margin-bottom: 0;
+    background: rgba(22,22,22, 0.5);
+    width: 100%;
+    max-width: 560px;
+    max-height: 10px;
+    border-radius: 5px;
+    padding-bottom: 32px;
+}
+.content {
+  text-align: center;
+  font-family: 'Helvetica Neue Regular';
+  color: #fff;
+  margin: 40px auto;
+	margin-top: 2px;
+  background: rgba(22,22,22, 0.5);
+  width: 100%;
+	max-width: 560px;
+  border-radius: 5px;
+  padding-bottom: 32px;
+}
+
+ul {
+	font-family: 'Helvetica Neue Regular';
+    list-style-type: none;
+    margin: 0;
+	padding-right: 20px;
+	height: 35px;
+    overflow: hidden;
+    background-color: #074F8F;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: cornflowerblue;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #4299D2;
+	color: white;
+}
+
+li:nth-child(3)
+{
+	border-right: 1px solid #0839F3;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.boxes {
+	margin-top: 20px;
+
+	
+}
+
+.input_field{
+	background-color: #000000;
+		height: 25px;
+	width: 275px;
+	border-radius: 5px;
+}
+input:focus { 
+    background-color: cornflowerblue;
+}
+.ch_box {
+	margin-top: 15px;
+}
+.button {
+	background-image: url(../img/ok_btn.png);
+	width: 149px;
+	height: 35px;
+	color: white;
+	border-radius: 5px;
+	font-family: 'Helvetica Neue Regular';
+}
