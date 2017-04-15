@@ -1,49 +1,47 @@
 <!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<link href="css/style.css" rel="stylesheet" type="text/css">
-<title>Casdastre-se</title>
+<html lang="ru-UA"><head>
+    <meta charset="UTF-8">
+    <title>Домашняя работа №5</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-<ul>
-  <!-- <li><a class="active" href="#home">Home</a></li> -->
-  <li style="display: block; background-color: cornflowerblue; color: white;text-align: center;padding: 14px 16px; text-decoration: none;padding: 8px 16px">Ola! <u>Entrat</u> ou <u>Cadastre-se</u></li>
-  <li style="display: block; color: white;text-align: center;padding: 14px 16px; text-decoration: none;padding: 6px 16px"><img src="img/flag.png">Minhas Ofertas</li>
-  <li><a href="#contact">Ajuda</a></li>
-  <li><a href="#contact">Contato</a></li>
-  <li><a href="#about">Forum</a></li>
-  <li><a href="#contact">Vendor</a></li>
-  <li><a href="#news">Menu YouBike</a></li>
+    <div class="wrapper">
+        <nav class="menu clearfix">
+            <div class="ola">Ola! <a href="#">Entrar</a> ou <a href="#">Cadastre-se</a></div>
+            <div class="flag"><img src="img/flag.png" alt=""><a href="#">Minhas Ofertas</a></div>
+            <ul>
+                <li><a href="#">Meu YouBike</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Ajuda</a></li>
+            </ul>
+        </nav>
+        <div class="middle-block">
+            <header>Cadastre-se</header>
+            <div class="content">
+                <a href="#" class="fb"></a>
+                <div class="divider">OU</div>
+                <form action="#">
+                    <input class="edit" type="text" placeholder="First Name">
+                    <input class="edit" type="text" placeholder="Last Name">
+                    <input class="edit" type="email" placeholder="Email Address">
+                    <input class="edit" type="password" placeholder="Choose Password">
+                    <input class="edit" type="password" placeholder="Password Confirm">
+                    <div class="cb-send-updates">
+                        <input type="checkbox" id="cb-send-updates">
+                        <label for="cb-send-updates">Send me Youbike updates and tips</label>
+                    </div>
+                    <input type="submit" value="Create my Account">
+                </form>
+                <footer>
+                    <p>By clicking the button above, you agree to the Terms of Service</p>
+                    <p>Xiew our Privacy Policy.</p>
+                </footer>
+            </div>
+        </div>
+    </div>
 
 
-</ul>
-<div class="headerBox">
-	<p style="padding-top: 9px">Cadastre-se</p>
-</div>
-<div class="content">
-<a href="#" ><img src="img/fb_btn.png" style="margin-top: 20px"></a>
-<div class="boxes">
-	<input type="text" class="input_field" placeholder="First Name">
-</div>
-<div class="boxes">
-	<input type="text" class="input_field" placeholder="Last Name">
-</div>
-<div class="boxes">
-	<input type="email" class="input_field" placeholder="Email Address">
-</div>
-<div class="boxes">
-	<input type="password" class="input_field" placeholder="Chose Password">
-</div>
-<div class="boxes">
-	<input type="password" class="input_field" placeholder="Password Confirm">
-</div >
-<div class="ch_box"> <input type="checkbox"> <span style="font-size: 15px"> Send me Youbike update and tips</span></div>
-<div style="padding-top: 15px;">
-	<button class="button">Create my Account</button>
-</div>
-<div style="padding-top: 20px; font-size: 12px">By clicking the button above, you agree to the Terms of Servise<br>Xiew our Privacy Policy.</div>
-</div>
-</body>
-</html>
+</body></html>
