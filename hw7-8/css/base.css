@@ -107,6 +107,7 @@ ul {
     left: -1px;
     top: 38px;
     font-size: 20px;
+	margin-left: 20px;
 }
 
 .menu__item {
@@ -407,7 +408,7 @@ a.top-row__read-more:hover {
 }
 
 .middle-row {
-    box-sizing: border-box;
+	box-sizing: border-box;
     height: 487px;
     padding-top: 100px;
     background-color: #f9f9f9;
@@ -417,7 +418,7 @@ a.top-row__read-more:hover {
 .mr-left-col {
     float: left;
     width: 44.688%;
-    padding-left: 22px;
+    padding-left: 42px;
 }
 
 .mr-left-col__cloud {
@@ -602,7 +603,7 @@ a.recent-updates__read-more-768 {
     overflow: hidden;
     width: 29.479%;
     height: 100%;
-    margin-left: -2px;
+    margin-left: 20px;
     letter-spacing: -0.1px;
 }
 
@@ -627,7 +628,7 @@ a.recent-updates__read-more-768 {
     overflow: hidden;
     width: 29.167%;
     height: 100%;
-    margin-left: 6.042%;
+    margin-left: 4.042%;
 }
 
 .pigbuller {
